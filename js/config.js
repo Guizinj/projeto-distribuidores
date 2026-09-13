@@ -1,11 +1,11 @@
 export const businessConfig = Object.freeze({
-  name: 'Professional',
-  wordmark: 'MARCA/EMPRESA',
-  subtitle: 'Distribuição Profissional',
+  name: 'MATEUS LIRA JL',
+  wordmark: 'MATEUS LIRA',
+  subtitle: 'Distribuidor Profissional',
   whatsapp: '5581979007035',
   instagram: '@mateuslirajl',
   instagramUrl: 'https://instagram.com/mateuslirajl',
-  email: 'atendimento@marca/empresa.com.br',
+  email: 'atendimento@mateuslira.com.br',
   region: 'Atendimento profissional',
   theme: {
     accent: '#aa8d63',
