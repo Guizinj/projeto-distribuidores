@@ -240,7 +240,7 @@
 .editorial-section__content .eyebrow { color: var(--color-muted-light); }
 
 .editorial-section__content h2 {
-  max-width: 9ch;
+  max-width: 25ch;
   margin-bottom: 1.8rem;
   font-size: var(--title-sm);
 }
@@ -328,7 +328,7 @@
 .consulting-cta .eyebrow { color: var(--color-muted-light); }
 
 .consulting-cta h2 {
-  max-width: 12ch;
+  max-width: 25ch;
   margin-bottom: 1.5rem;
   font-size: var(--title-sm);
 }
