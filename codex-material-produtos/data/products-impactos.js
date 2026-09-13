@@ -1,0 +1,116 @@
+export const impactosProducts = [
+  {
+    id: 'impactos-help-glow-shampoo-1l',
+    brand: 'Impactos Professional',
+    line: 'Help Glow',
+    name: 'Shampoo Help Glow',
+    category: 'Reconstrução',
+    volume: '1 L',
+    shortDescription: 'Limpeza suave para fios que precisam de um protocolo reconstrutor.',
+    description: 'Shampoo da linha Help Glow. Promove limpeza suave ao couro cabeludo sem danificar os fios, removendo impurezas que pesam os cabelos.',
+    benefits: [
+      'Limpeza suave',
+      'Linha voltada à reposição de massa',
+      'Auxilia no cuidado de fios quebradiços e opacos'
+    ],
+    recommendedFor: 'Fios opacos, sem movimento, quebradiços, com pontas duplas ou textura indefinida.',
+    usage: 'Aplicar nos cabelos molhados, massagear até formar espuma, enxaguar e repetir se necessário.',
+    image: 'assets/products/impactos/impactos-help-glow-shampoo-1l.webp',
+    featured: true
+  },
+  {
+    id: 'impactos-nutra-glow-shampoo-300ml',
+    brand: 'Impactos Professional',
+    line: 'Nutra Glow',
+    name: 'Shampoo Nutra Glow',
+    category: 'Nutrição',
+    volume: '300 ml',
+    shortDescription: 'Limpeza delicada com ação antioxidante e reparadora para fios ressecados e opacos.',
+    description: 'Shampoo da linha Nutra Glow com ação antioxidante e reparadora, desenvolvido para proporcionar limpeza delicada e perfumada.',
+    benefits: [
+      'Limpeza delicada',
+      'Linha voltada à reposição de lipídios',
+      'Auxilia no combate à opacidade e ao frizz'
+    ],
+    recommendedFor: 'Fios ressecados, com frizz, opacos ou sem resistência.',
+    usage: 'Aplicar nos cabelos molhados, massagear até formar espuma, enxaguar e repetir se necessário.',
+    image: 'assets/products/impactos/impactos-nutra-glow-shampoo-300ml.webp',
+    featured: true
+  },
+  {
+    id: 'impactos-hidra-glow-shampoo-1l',
+    brand: 'Impactos Professional',
+    line: 'Hidra Glow',
+    name: 'Shampoo Hidra Glow',
+    category: 'Hidratação',
+    volume: '1 L',
+    shortDescription: 'Limpeza delicada com suavização das cutículas e hidratação intensa.',
+    description: 'Shampoo da linha Hidra Glow, formulado para promover limpeza delicada, suavização das cutículas e hidratação intensa.',
+    benefits: [
+      'Limpeza delicada',
+      'Suavização das cutículas',
+      'Linha voltada à manutenção hídrica dos fios'
+    ],
+    recommendedFor: 'Cabelos secos, fios sem movimento ou desidratados.',
+    usage: 'Aplicar nos cabelos molhados, massagear até formar espuma, enxaguar e repetir se necessário.',
+    image: 'assets/products/impactos/impactos-hidra-glow-shampoo-1l.webp',
+    featured: true
+  },
+  {
+    id: 'impactos-bioplastia-organic-1l',
+    brand: 'Impactos Professional',
+    line: 'Bioplastia Organic',
+    name: 'Bioplastia Organic',
+    category: 'Progressivos',
+    volume: '1 L',
+    shortDescription: 'Redutor de volume sem formol para alinhamento, disciplina e controle do frizz.',
+    description: 'Retexturização capilar sem formol apresentada pela marca para alinhamento dos fios, redução de volume e selagem das cutículas.',
+    benefits: [
+      'Alinhamento dos fios',
+      'Ação antifrizz',
+      'Cabelos lisos e brilhantes'
+    ],
+    recommendedFor: 'Uso profissional em protocolos de alinhamento e redução de volume.',
+    usage: 'Uso profissional. Realizar teste de mechas e seguir o protocolo técnico da marca.',
+    image: 'assets/products/impactos/impactos-bioplastia-organic-1l.webp',
+    featured: true
+  },
+  {
+    id: 'impactos-impact-needful-300ml',
+    brand: 'Impactos Professional',
+    line: 'Impact PréPós',
+    name: 'Impact NeedFul',
+    category: 'Finalização',
+    volume: '300 ml',
+    shortDescription: 'Multifuncional para equilíbrio de pH, controle do frizz e cuidado da fibra.',
+    description: 'Produto multifuncional da linha Impact PréPós. A marca informa que pode ser usado como pré-poo, misturado à máscara ou como finalizador, de acordo com a necessidade do fio.',
+    benefits: [
+      'Auxilia no equilíbrio do pH',
+      'Controle do frizz',
+      'Pode ser utilizado como finalizador'
+    ],
+    recommendedFor: 'Cabelos fragilizados e fios que passaram por procedimentos químicos.',
+    usage: 'Uso profissional. Aplicar conforme a necessidade do fio e o protocolo escolhido.',
+    image: 'assets/products/impactos/impactos-impact-needful-300ml.webp',
+    featured: false
+  },
+  {
+    id: 'impactos-vegan-liss-btox-1kg',
+    brand: 'Impactos Professional',
+    line: 'Vegan Liss Btox',
+    name: 'Vegan Liss Btox',
+    category: 'Progressivos',
+    volume: '1 kg',
+    shortDescription: 'Btox restaurador sem formol para alinhamento, redução de frizz e tratamento dos fios.',
+    description: 'Btox restaurador sem formol com proteínas da soja, milho e trigo, apresentado pela marca para revitalização de cabelos danificados e enfraquecidos.',
+    benefits: [
+      'Alinhamento capilar',
+      'Redução do frizz',
+      'Reposição de massa e cuidado da fibra'
+    ],
+    recommendedFor: 'Uso profissional em protocolos de alinhamento ou soltura de cachos.',
+    usage: 'Uso profissional. Realizar teste de mechas e seguir o protocolo técnico da marca.',
+    image: 'assets/products/impactos/impactos-vegan-liss-btox-1kg.webp',
+    featured: false
+  }
+];

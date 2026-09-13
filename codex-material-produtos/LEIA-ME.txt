@@ -1,0 +1,14 @@
+MATERIAL DE PRODUTOS - DISTRIBUIDORES
+
+Conteúdo:
+- assets/products/elure/: 6 imagens preparadas da ÉLURE
+- assets/products/impactos/: 6 imagens extraídas do catálogo oficial Impactos
+- data/products-elure.js
+- data/products-impactos.js
+- data/products-selecionados.js
+- docs/SELECAO_FINAL.md
+- docs/INTEGRACAO_CODEX.md
+
+Objetivo:
+Entregar à Codex um conjunto fechado de 12 produtos reais para substituir os mocks
+sem redesenhar o projeto atual.

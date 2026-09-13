@@ -11,8 +11,8 @@
   --color-muted-light: #b7b2a9;
   --color-accent: #aa8d63;
 
-  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Baskerville, "Times New Roman", serif;
-  --font-body: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --font-body: "Inter", Arial, Helvetica, sans-serif;
 
   --container-width: 90rem;
   --container-gutter: clamp(1.25rem, 4vw, 4.5rem);

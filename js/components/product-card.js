@@ -7,7 +7,7 @@ export function createProductCard(product, options = {}) {
   return [
     '<article class="product-card reveal' + compact + '">',
       '<a class="product-card__image" href="' + href + '" aria-label="Ver ' + escapeHtml(product.name) + '">',
-        '<img src="' + escapeHtml(product.image) + '" alt="Embalagem ilustrativa de ' + escapeHtml(product.name) + '" width="820" height="1230" loading="lazy">',
+        '<img src="' + escapeHtml(product.image) + '" alt="Embalagem de ' + escapeHtml(product.name) + '" width="820" height="1230" loading="lazy">',
         '<span class="product-card__category">' + escapeHtml(product.category) + '</span>',
         '<span class="product-card__view" aria-hidden="true">Ver detalhes ↗</span>',
       '</a>',
