@@ -19,7 +19,7 @@
 }
 
 .section-heading h2 {
-  max-width: 25ch;
+  max-width: 15ch;
   margin-bottom: 0;
   font-size: var(--title-sm);
 }
