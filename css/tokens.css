@@ -1,0 +1,38 @@
+:root {
+  --color-ink: #171715;
+  --color-ink-soft: #242421;
+  --color-paper: #f4f1eb;
+  --color-paper-warm: #ebe6dd;
+  --color-surface: #faf8f3;
+  --color-white: #fffefa;
+  --color-line: rgba(23, 23, 21, 0.16);
+  --color-line-dark: rgba(255, 254, 250, 0.17);
+  --color-muted: #6b6861;
+  --color-muted-light: #b7b2a9;
+  --color-accent: #aa8d63;
+
+  --font-display: "Iowan Old Style", "Palatino Linotype", Palatino, Baskerville, "Times New Roman", serif;
+  --font-body: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --container-width: 90rem;
+  --container-gutter: clamp(1.25rem, 4vw, 4.5rem);
+  --header-height: 4.75rem;
+  --section-space: clamp(5.5rem, 10vw, 10rem);
+
+  --text-xs: 0.6875rem;
+  --text-sm: 0.8125rem;
+  --text-base: 1rem;
+  --text-lg: clamp(1.0625rem, 1.5vw, 1.25rem);
+  --title-sm: clamp(2.35rem, 5.5vw, 4.75rem);
+  --title-lg: clamp(3.35rem, 9.2vw, 8.75rem);
+
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --shadow-soft: 0 1.5rem 4rem rgba(21, 20, 17, 0.08);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --transition: 320ms var(--ease);
+}
+
+@media (min-width: 48rem) {
+  :root { --header-height: 5.5rem; }
+}

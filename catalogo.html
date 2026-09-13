@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Catálogo profissional de tratamentos capilares para salões de alto padrão.">
+    <meta name="theme-color" content="#f4f1eb">
+    <title>Catálogo Profissional</title>
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/catalog.css">
+  </head>
+  <body data-page="catalog">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <div data-site-header></div>
+    <main id="conteudo">
+      <header class="internal-hero">
+        <div class="container internal-hero__grid">
+          <p class="eyebrow">Portfólio · 2026</p>
+          <h1>Catálogo<br><em>Profissional</em></h1>
+          <p>Tratamentos selecionados para apoiar a performance de salões que valorizam técnica, consistência e resultado.</p>
+        </div>
+      </header>
+
+      <section class="catalog-section" aria-labelledby="catalog-results-title">
+        <div class="container">
+          <div class="catalog-toolbar" data-catalog-toolbar>
+            <div class="filter-block">
+              <span class="filter-label">Tratamento</span>
+              <div class="filter-chips" role="group" aria-label="Filtrar por tratamento" data-category-filters></div>
+            </div>
+            <div class="catalog-controls">
+              <label class="search-field">
+                <span class="sr-only">Buscar por nome ou função</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+                <input type="search" placeholder="Buscar tratamento" autocomplete="off" data-search-input>
+              </label>
+              <label class="select-field">
+                <span class="sr-only">Filtrar por marca</span>
+                <select data-brand-filter>
+                  <option value="">Todas as marcas</option>
+                </select>
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5"></path></svg>
+              </label>
+            </div>
+          </div>
+
+          <div class="catalog-summary">
+            <h2 id="catalog-results-title" class="sr-only">Produtos do catálogo</h2>
+            <p data-result-count aria-live="polite"></p>
+            <button class="clear-filters" type="button" data-clear-filters hidden>Limpar filtros</button>
+          </div>
+          <div class="product-grid catalog-grid" data-catalog-grid aria-live="polite"></div>
+          <div class="empty-state" data-empty-state hidden>
+            <p class="eyebrow">Nenhum resultado</p>
+            <h2>Não encontramos esse tratamento.</h2>
+            <p>Revise sua busca ou limpe os filtros para explorar todo o catálogo.</p>
+            <button class="button button--dark" type="button" data-empty-clear>Ver todos os produtos</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-consulting">
+        <div class="container catalog-consulting__inner reveal">
+          <p class="eyebrow">Precisa de orientação?</p>
+          <h2>Encontre a linha certa para o seu salão.</h2>
+          <p>Converse com nossa equipe sobre protocolos, disponibilidade e condições profissionais.</p>
+          <a class="button button--light" href="#" data-whatsapp-link>Falar com um consultor <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+    <script type="module" src="js/catalog.js"></script>
+  </body>
+</html>
