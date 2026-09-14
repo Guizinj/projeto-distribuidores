@@ -13,7 +13,7 @@ function renderNotFound(container) {
       '<p class="eyebrow">Produto não encontrado</p>',
       '<h1>Este tratamento não está disponível no catálogo.</h1>',
       '<p>O link pode estar incompleto ou o produto pode ter sido atualizado.</p>',
-      '<div class="button-group"><a class="button button--dark" href="catalogo.html">Voltar ao catálogo</a><a class="text-link" href="' + buildWhatsAppUrl() + '" target="_blank" rel="noopener noreferrer">Falar com um consultor ↗</a></div>',
+      '<div class="button-group"><a class="button button--dark" href="catalogo.html">Voltar ao catálogo</a><a class="text-link" href="' + buildWhatsAppUrl() + '" target="_blank" rel="noopener noreferrer">Falar com um consultor <span class="icon-arrow-up-right" aria-hidden="true"></span></a></div>',
     '</section>'
   ].join('');
 }
@@ -35,7 +35,7 @@ function renderProduct(container, product) {
         '<p class="product-info__lead">' + escapeHtml(product.shortDescription) + '</p>',
         '<p class="product-info__description">' + escapeHtml(product.description) + '</p>',
         '<div class="product-commercial"><div><span>Condições</span><strong>Consulte condições comerciais</strong></div><div><span>Atendimento</span><strong>Exclusivo para profissionais</strong></div></div>',
-        '<a class="button button--dark button--full" href="' + buildWhatsAppUrl(product) + '" target="_blank" rel="noopener noreferrer">Solicitar este tratamento <span aria-hidden="true">↗</span></a>',
+        '<a class="button button--dark button--full" href="' + buildWhatsAppUrl(product) + '" target="_blank" rel="noopener noreferrer">Solicitar este tratamento <span class="icon-arrow-up-right" aria-hidden="true"></span></a>',
         '<a class="back-link" href="catalogo.html">← Voltar ao catálogo</a>',
         '<div class="product-specs">',
           '<section><h2>Benefícios</h2><ul>' + benefits + '</ul></section>',

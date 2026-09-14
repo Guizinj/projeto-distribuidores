@@ -9,7 +9,7 @@ export function createProductCard(product, options = {}) {
       '<a class="product-card__image" href="' + href + '" aria-label="Ver ' + escapeHtml(product.name) + '">',
         '<img src="' + escapeHtml(product.image) + '" alt="Embalagem de ' + escapeHtml(product.name) + '" width="820" height="1230" loading="lazy">',
         '<span class="product-card__category">' + escapeHtml(product.category) + '</span>',
-        '<span class="product-card__view" aria-hidden="true">Ver detalhes ↗</span>',
+        '<span class="product-card__view" aria-hidden="true">Ver detalhes <span class="icon-arrow-up-right"></span></span>',
       '</a>',
       '<div class="product-card__body">',
         '<p class="product-card__brand">' + escapeHtml(product.brand) + '</p>',

@@ -245,6 +245,9 @@ body[data-page="home"] .site-header:not(.is-scrolled):not(.menu-open) .brand spa
 .product-card__view {
   position: absolute;
   inset: auto 1rem 1rem auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.65rem 0.8rem;
   background: var(--color-ink);
   color: var(--color-white);

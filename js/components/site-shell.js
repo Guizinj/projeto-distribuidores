@@ -22,7 +22,7 @@ function headerTemplate(page) {
           '<strong>' + businessConfig.wordmark + '</strong><span>' + businessConfig.subtitle + '</span>',
         '</a>',
         '<nav class="site-nav" id="site-navigation" aria-label="Navegação principal">' + nav + '</nav>',
-        '<a class="header-cta" href="catalogo.html">Ver catálogo <span aria-hidden="true">↗</span></a>',
+        '<a class="header-cta" href="catalogo.html">Ver catálogo <span class="icon-arrow-up-right" aria-hidden="true"></span></a>',
         '<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">',
           '<span></span><span></span>',
         '</button>',
@@ -31,7 +31,7 @@ function headerTemplate(page) {
         '<nav aria-label="Navegação para dispositivos móveis">' + nav + '</nav>',
         '<div class="mobile-menu__footer">',
           '<p>' + businessConfig.region + '</p>',
-          '<a href="' + buildWhatsAppUrl() + '" target="_blank" rel="noopener noreferrer">Falar com um consultor ↗</a>',
+          '<a href="' + buildWhatsAppUrl() + '" target="_blank" rel="noopener noreferrer">Falar com um consultor <span class="icon-arrow-up-right" aria-hidden="true"></span></a>',
         '</div>',
       '</div>',
     '</header>'
@@ -49,7 +49,7 @@ function footerTemplate() {
         '</div>',
         '<div class="site-footer__column"><p>Navegação</p><a href="index.html">Início</a><a href="catalogo.html">Catálogo</a><a href="index.html#tratamentos">Tratamentos</a><a href="index.html#marcas">Marcas</a></div>',
         '<div class="site-footer__column"><p>Tratamentos</p><a href="catalogo.html?categoria=Hidratação">Hidratação</a><a href="catalogo.html?categoria=Nutrição">Nutrição</a><a href="catalogo.html?categoria=Reconstrução">Reconstrução</a><a href="catalogo.html?categoria=Progressivos">Progressivos</a></div>',
-        '<div class="site-footer__column"><p>Contato</p><a href="' + buildWhatsAppUrl() + '" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="' + businessConfig.instagramUrl + '" target="_blank" rel="noopener noreferrer">' + businessConfig.instagram + ' ↗</a><a href="mailto:' + businessConfig.email + '">' + businessConfig.email + '</a></div>',
+        '<div class="site-footer__column"><p>Contato</p><a href="' + buildWhatsAppUrl() + '" target="_blank" rel="noopener noreferrer">WhatsApp <span class="icon-arrow-up-right" aria-hidden="true"></span></a><a href="' + businessConfig.instagramUrl + '" target="_blank" rel="noopener noreferrer">' + businessConfig.instagram + ' <span class="icon-arrow-up-right" aria-hidden="true"></span></a><a href="mailto:' + businessConfig.email + '">' + businessConfig.email + '</a></div>',
       '</div>',
       '<div class="container site-footer__bottom"><span>© ' + year + ' ' + businessConfig.name + '</span><span>' + businessConfig.region + '</span><span>Impactos Professional · ÉLURE Professional</span></div>',
     '</footer>'

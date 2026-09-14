@@ -209,10 +209,19 @@
   transition: color var(--transition), background var(--transition), transform var(--transition);
 }
 
+.round-arrow .icon-arrow-up-right {
+  width: 1.05rem;
+  height: 1.05rem;
+  transition: transform var(--transition);
+}
+
 .treatment-card:hover .round-arrow {
   background: var(--color-white);
   color: var(--color-ink);
-  transform: rotate(45deg);
+}
+
+.treatment-card:hover .round-arrow .icon-arrow-up-right {
+  transform: translate(0.1rem, -0.1rem);
 }
 
 .editorial-section {
